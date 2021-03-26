@@ -164,5 +164,25 @@ describe("pourMaximum", () => {
       });
       expect(isSuccessful).toBeTruthy();
     });
+
+    test("When different type of water is in the middle", () => {
+      const source: Tube = {
+        waters: [Water.PINK, Water.BLUE, Water.PINK, Water.BLUE],
+      };
+      const destination: Tube = {
+        waters: [Water.EMPTY, Water.EMPTY, Water.EMPTY, Water.PINK],
+      };
+      const [updatedSource, updatedDestination, isSuccessful] = pourMaximum(
+        source,
+        destination
+      );
+      expect(updatedSource).toStrictEqual({
+        waters: [Water.EMPTY, Water.BLUE, Water.PINK, Water.BLUE],
+      });
+      expect(updatedDestination).toStrictEqual({
+        waters: [Water.EMPTY, Water.EMPTY, Water.PINK, Water.PINK],
+      });
+      expect(isSuccessful).toBeTruthy();
+    });
   });
 });

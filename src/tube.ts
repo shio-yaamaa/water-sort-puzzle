@@ -22,6 +22,8 @@ const getTakableMaximum = (tube: Tube): [Water | null, number] => {
       count++;
     } else if (water === waterType) {
       count++;
+    } else {
+      break;
     }
   }
   return [waterType, count];
