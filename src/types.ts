@@ -2,6 +2,7 @@ export type Range = [number, number]; // [from, to)
 
 // The set of stringified States
 // It's a set instead of list so that it can detect when the states are repeated
+// The state of the current tubes are not included
 export type History = Set<string>;
 
 export interface State {
