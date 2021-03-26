@@ -5,6 +5,11 @@ export type Range = [number, number]; // [from, to)
 // The state of the current tubes are not included
 export type History = Set<string>;
 
+export interface Stage {
+  level: number;
+  tubes: Tube[];
+}
+
 export interface State {
   tubes: Tube[];
   history: History;
