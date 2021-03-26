@@ -38,7 +38,7 @@ const measureDifficultyOfStage = (stage: Stage): number => {
       const childStates = yieldChildStates(state);
       if (childStates.length > 0) {
         const nonRepeatingChildStates = childStates.filter(
-          (state) => !history.has(stringifyTubes(state.tubes))
+          (childStates) => !history.has(stringifyTubes(childStates.tubes))
         );
         queue.push(...nonRepeatingChildStates);
         for (const childState of nonRepeatingChildStates) {
