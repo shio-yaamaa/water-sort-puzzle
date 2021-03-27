@@ -5,6 +5,9 @@ module.exports = {
   output: {
     path: __dirname + "/dist",
     filename: "main.js",
+    // library: {
+    //   type: "module",
+    // },
   },
   module: {
     rules: [
@@ -17,4 +20,7 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".js"],
   },
+  // experiments: {
+  //   outputModule: true,
+  // },
 };

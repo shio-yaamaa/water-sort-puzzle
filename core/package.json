@@ -1,13 +1,11 @@
 {
-  "name": "solver",
+  "name": "core",
   "version": "1.0.0",
-  "main": "dist/main.js",
+  "main": "dist/core/src/main.js",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack -w",
-    "run": "yarn run build && node dist/main.js",
+    "build": "tsc",
     "test": "jest"
   },
   "devDependencies": {
