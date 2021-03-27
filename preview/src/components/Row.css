@@ -1,0 +1,14 @@
+.Row {
+  display: flex;
+  justify-content: flex-start;
+  padding: 4px;
+}
+
+.Row-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
