@@ -1,4 +1,4 @@
-import { stages } from "../data/stages";
+import { stages } from "../../data/stages";
 import { Stage, State } from "./types";
 import { isStateComplete, stringifyTubes, yieldChildStates } from "./state";
 

@@ -1,4 +1,4 @@
-import { Water, Stage } from "../src/types";
+import { Water, Stage } from "../solver/src/types";
 
 export const stages: Stage[] = [
   {
