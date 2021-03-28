@@ -14,10 +14,6 @@ export const isStateComplete = (state: State) => {
   return state.tubes.every((tube) => isTubeComplete(tube));
 };
 
-const isStateRepeating = (state: State, newTubes: Tube[]): boolean => {
-  return state.history.has(stringifyTubes(newTubes));
-};
-
 export const yieldChildStates = (state: State): State[] => {
   if (isStateComplete(state)) {
     return [];
@@ -45,12 +41,8 @@ export const yieldChildStates = (state: State): State[] => {
         }
         return tube;
       });
-      if (isStateRepeating(state, childTubes)) {
-        return;
-      }
       childStates.push({
         tubes: childTubes,
-        history: new Set(state.history).add(stringifyTubes(state.tubes)),
       });
     });
   });
