@@ -1,3 +1,8 @@
+// Channels:
+// - Mobile games: UCjd8vk13yCfTwlTHOu_nsuw
+// - Mobile Games: UCscPSAYHuvcqD_RGTin_lDA
+// The number of views are as of March 2021.
+
 interface Video {
   url: string;
   viewCount: number;
@@ -56,6 +61,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/92Hks_2M0u4",
         viewCount: 41,
       },
+      {
+        url: "https://youtu.be/jkPQn1pmWqs",
+        viewCount: 238,
+      },
     ],
   },
   {
@@ -64,6 +73,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/pYtA8Z4tKcI",
         viewCount: 60,
+      },
+      {
+        url: "https://youtu.be/BmWJKXYQoKg",
+        viewCount: 72,
       },
     ],
   },
@@ -74,6 +87,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/sqXh0tUioyA",
         viewCount: 271,
       },
+      {
+        url: "https://youtu.be/ViVGNuYKqsE",
+        viewCount: 1182,
+      },
     ],
   },
   {
@@ -82,6 +99,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/eIgjzqz2AHw",
         viewCount: 1196,
+      },
+      {
+        url: "https://youtu.be/GEfi6v7xFnI",
+        viewCount: 11804,
       },
     ],
   },
@@ -92,6 +113,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/SkNyg-jvxMY",
         viewCount: 731,
       },
+      {
+        url: "https://youtu.be/nEMG7VWSUG4",
+        viewCount: 115,
+      },
     ],
   },
   {
@@ -101,6 +126,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/cMAHSpjmkq8",
         viewCount: 508,
       },
+      {
+        url: "https://youtu.be/YObn9jh3WHc",
+        viewCount: 4479,
+      },
     ],
   },
   {
@@ -109,6 +138,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/nfOtMvwTfAo",
         viewCount: 454,
+      },
+      {
+        url: "https://youtu.be/VGiCWp-Uh1c",
+        viewCount: 3203,
       },
     ],
   },
@@ -128,6 +161,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/Blfpvk-0QrM",
         viewCount: 131,
       },
+      {
+        url: "https://youtu.be/puROJb6IYcA",
+        viewCount: 735,
+      },
     ],
   },
   {
@@ -136,6 +173,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/UYpMs9N7W_s",
         viewCount: 85,
+      },
+      {
+        url: "https://youtu.be/lGvDWazViiE",
+        viewCount: 335,
       },
     ],
   },
@@ -155,6 +196,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/UtQk0Rh3XH4",
         viewCount: 802,
       },
+      {
+        url: "https://youtu.be/G0_EpWFvbe0",
+        viewCount: 873,
+      },
     ],
   },
   {
@@ -163,6 +208,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/oJSDcbknnzE",
         viewCount: 117,
+      },
+      {
+        url: "https://youtu.be/WupEVyGXpe8",
+        viewCount: 1091,
       },
     ],
   },
@@ -173,6 +222,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/Y-MANE1545I",
         viewCount: 81,
       },
+      {
+        url: "https://youtu.be/PzER4Zuk-GE",
+        viewCount: 246,
+      },
     ],
   },
   {
@@ -181,6 +234,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/T7Lw-nr4Lk0",
         viewCount: 305,
+      },
+      {
+        url: "https://youtu.be/_rFMtBTWm3A",
+        viewCount: 55,
       },
     ],
   },
@@ -200,6 +257,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/J-lC7eMr6aw",
         viewCount: 23,
       },
+      {
+        url: "https://youtu.be/Y19Y9pJuE3E",
+        viewCount: 45,
+      },
     ],
   },
   {
@@ -217,6 +278,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/bUMmgKy_D5E",
         viewCount: 38,
+      },
+      {
+        url: "https://youtu.be/Cp43EPZxwFs",
+        viewCount: 307,
       },
     ],
   },
@@ -236,6 +301,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/S5yQgcZTf4Y",
         viewCount: 474,
       },
+      {
+        url: "https://youtu.be/_QUXxczeylo",
+        viewCount: 39,
+      },
     ],
   },
   {
@@ -244,6 +313,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/qvYOXfWUZng",
         viewCount: 48,
+      },
+      {
+        url: "https://youtu.be/zEIg0Bmo89o",
+        viewCount: 531,
       },
     ],
   },
@@ -263,6 +336,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/70oi45_thDQ",
         viewCount: 14389,
       },
+      {
+        url: "https://youtu.be/uOI6BgjeEbM",
+        viewCount: 18075,
+      },
     ],
   },
   {
@@ -271,6 +348,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/YMKmYY-ttuc",
         viewCount: 262,
+      },
+      {
+        url: "https://youtu.be/DNF9_aRqBlQ",
+        viewCount: 2745,
       },
     ],
   },
@@ -281,6 +362,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/eyJJnBpB3Og",
         viewCount: 129,
       },
+      {
+        url: "https://youtu.be/yK6NnX-LHYQ",
+        viewCount: 2144,
+      },
     ],
   },
   {
@@ -289,6 +374,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/zt_BR6b_Iig",
         viewCount: 352,
+      },
+      {
+        url: "https://youtu.be/xXhYfkNGuTg",
+        viewCount: 4176,
       },
     ],
   },
@@ -299,6 +388,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/33v3viw6H1s",
         viewCount: 3208,
       },
+      {
+        url: "https://youtu.be/IYjLX5gIU2Q",
+        viewCount: 10863,
+      },
     ],
   },
   {
@@ -307,6 +400,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/4kad-t26pxQ",
         viewCount: 712,
+      },
+      {
+        url: "https://youtu.be/XEgeVji2l5o",
+        viewCount: 960,
       },
     ],
   },
@@ -326,6 +423,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/vidVYzhVYcU",
         viewCount: 6850,
       },
+      {
+        url: "https://youtu.be/DUHmXWdeZTs",
+        viewCount: 22541,
+      },
     ],
   },
   {
@@ -334,6 +435,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/juiOB-XX3ZY",
         viewCount: 457,
+      },
+      {
+        url: "https://youtu.be/g9MXbwO2L5Q",
+        viewCount: 2339,
       },
     ],
   },
@@ -344,6 +449,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/6os0mGEWkaI",
         viewCount: 1483,
       },
+      {
+        url: "https://youtu.be/2cKQmfhYx7I",
+        viewCount: 13584,
+      },
     ],
   },
   {
@@ -352,6 +461,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/pDEm7wMyhuE",
         viewCount: 450,
+      },
+      {
+        url: "https://youtu.be/XF_bUUIgPjo",
+        viewCount: 14981,
       },
     ],
   },
@@ -362,6 +475,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/jBm_jou0Hsg",
         viewCount: 293,
       },
+      {
+        url: "https://youtu.be/FGO2orlrD44",
+        viewCount: 4250,
+      },
     ],
   },
   {
@@ -371,6 +488,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/_0-ZXE-t7NY",
         viewCount: 744,
       },
+      {
+        url: "https://youtu.be/l2TQix_-fu0",
+        viewCount: 8247,
+      },
     ],
   },
   {
@@ -379,6 +500,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/i2tURYgbt34",
         viewCount: 241,
+      },
+      {
+        url: "https://youtu.be/BMhM2Wa2UN0",
+        viewCount: 2642,
       },
     ],
   },
@@ -407,6 +532,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/sC2YRzwDLgU",
         viewCount: 3729,
       },
+      {
+        url: "https://youtu.be/dBgDWQEHJEA",
+        viewCount: 25479,
+      },
     ],
   },
   {
@@ -415,6 +544,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/zk1AOf-7DSs",
         viewCount: 922,
+      },
+      {
+        url: "https://youtu.be/xYYvcWDjfFc",
+        viewCount: 2255,
       },
     ],
   },
@@ -425,6 +558,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/DDvyDYdNJWM",
         viewCount: 2017,
       },
+      {
+        url: "https://youtu.be/LGtjhE4fN8Y",
+        viewCount: 8477,
+      },
     ],
   },
   {
@@ -433,6 +570,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/ez1Wo78TyfU",
         viewCount: 62172,
+      },
+      {
+        url: "https://youtu.be/khWwwzmj3Z0",
+        viewCount: 378900,
       },
     ],
   },
@@ -443,6 +584,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/ZfVAX-dCBUQ",
         viewCount: 1094,
       },
+      {
+        url: "https://youtu.be/jLoowzmNkv4",
+        viewCount: 7061,
+      },
     ],
   },
   {
@@ -451,6 +596,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/15p9OPkCpHc",
         viewCount: 9340,
+      },
+      {
+        url: "https://youtu.be/nVhGWTW0x3E",
+        viewCount: 28623,
       },
     ],
   },
@@ -461,6 +610,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/qhlZUVNhfbs",
         viewCount: 3961,
       },
+      {
+        url: "https://youtu.be/AKdxOtl-4OM",
+        viewCount: 16386,
+      },
     ],
   },
   {
@@ -469,6 +622,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/LHf9tKUNT1w",
         viewCount: 111,
+      },
+      {
+        url: "https://youtu.be/iTJaeNV6_is",
+        viewCount: 2603,
       },
     ],
   },
@@ -479,6 +636,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/lfNiud50rgs",
         viewCount: 1181,
       },
+      {
+        url: "https://youtu.be/RzWLrRRaqMs",
+        viewCount: 11380,
+      },
     ],
   },
   {
@@ -487,6 +648,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/_0WXds7ZTcg",
         viewCount: 2486,
+      },
+      {
+        url: "https://youtu.be/ebGr9ly1Cts",
+        viewCount: 8351,
       },
     ],
   },
@@ -497,6 +662,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/9swm6cYLvpk",
         viewCount: 424,
       },
+      {
+        url: "https://youtu.be/GXzPs2iU2X0",
+        viewCount: 1526,
+      },
     ],
   },
   {
@@ -505,6 +674,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/eEUHT9dTeKY",
         viewCount: 1409,
+      },
+      {
+        url: "https://youtu.be/Gc-uPGuXNxg",
+        viewCount: 11833,
       },
     ],
   },
@@ -524,6 +697,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/JsNeUwERTqc",
         viewCount: 382,
       },
+      {
+        url: "https://youtu.be/sTuTF3I80eg",
+        viewCount: 2204,
+      },
     ],
   },
   {
@@ -532,6 +709,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/JWPvcNWjUpI",
         viewCount: 4335,
+      },
+      {
+        url: "https://youtu.be/oqC4xIjj178",
+        viewCount: 33782,
       },
     ],
   },
@@ -542,6 +723,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/sx7yFzD7snQ",
         viewCount: 1848,
       },
+      {
+        url: "https://youtu.be/pIJAoEtCpjU",
+        viewCount: 15638,
+      },
     ],
   },
   {
@@ -550,6 +735,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/n_p5vunKNEs",
         viewCount: 217,
+      },
+      {
+        url: "https://youtu.be/qq48hl8ZsVw",
+        viewCount: 1719,
       },
     ],
   },
@@ -560,6 +749,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/ZSDeUU0RA2c",
         viewCount: 1830,
       },
+      {
+        url: "https://youtu.be/fSulyZS2Jwc",
+        viewCount: 18928,
+      },
     ],
   },
   {
@@ -568,6 +761,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/v5a5hJ3hTfo",
         viewCount: 549,
+      },
+      {
+        url: "https://youtu.be/J4zf-9amVyg",
+        viewCount: 2744,
       },
     ],
   },
@@ -578,6 +775,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/exdMWSaClpE",
         viewCount: 472,
       },
+      {
+        url: "https://youtu.be/q8TiwqPjTnk",
+        viewCount: 4423,
+      },
     ],
   },
   {
@@ -586,6 +787,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/tEgcn5DVkKI",
         viewCount: 2036,
+      },
+      {
+        url: "https://youtu.be/pR4SYKdHEc0",
+        viewCount: 7019,
       },
     ],
   },
@@ -596,6 +801,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/mYOnlVzUe9Y",
         viewCount: 326,
       },
+      {
+        url: "https://youtu.be/DVd_W5TEBnA",
+        viewCount: 997,
+      },
     ],
   },
   {
@@ -604,6 +813,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/Uf9r55cUWcU",
         viewCount: 106,
+      },
+      {
+        url: "https://youtu.be/WL0J-zeg_AE",
+        viewCount: 655,
       },
     ],
   },
@@ -614,6 +827,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/ntSdNhd6SZE",
         viewCount: 463,
       },
+      {
+        url: "https://youtu.be/DSjP26VOyY0",
+        viewCount: 5272,
+      },
     ],
   },
   {
@@ -622,6 +839,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/1jNriDdFPcE",
         viewCount: 750,
+      },
+      {
+        url: "https://youtu.be/D1wokHMnLyw",
+        viewCount: 2851,
       },
     ],
   },
@@ -632,6 +853,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/5NEjGj2vOm0",
         viewCount: 412,
       },
+      {
+        url: "https://youtu.be/q15DvuoTws4",
+        viewCount: 2391,
+      },
     ],
   },
   {
@@ -640,6 +865,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/QxmmfIZxiCA",
         viewCount: 789,
+      },
+      {
+        url: "https://youtu.be/TZTAW7nGgvE",
+        viewCount: 6424,
       },
     ],
   },
@@ -659,6 +888,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/N0s_gpwCaH8",
         viewCount: 444,
       },
+      {
+        url: "https://youtu.be/n-N29Ryl694",
+        viewCount: 2028,
+      },
     ],
   },
   {
@@ -667,6 +900,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/dBzfBRqsolw",
         viewCount: 545,
+      },
+      {
+        url: "https://youtu.be/GnscVypZtoM",
+        viewCount: 2229,
       },
     ],
   },
@@ -677,6 +914,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/i6OcmM9oPII",
         viewCount: 567,
       },
+      {
+        url: "https://youtu.be/vyL886e2b2o",
+        viewCount: 4258,
+      },
     ],
   },
   {
@@ -685,6 +926,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/D0epPpyc9Pg",
         viewCount: 820,
+      },
+      {
+        url: "https://youtu.be/1MO9h0uZL3g",
+        viewCount: 50,
       },
     ],
   },
@@ -695,6 +940,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/YSxMFxj5gSA",
         viewCount: 609,
       },
+      {
+        url: "https://youtu.be/83lEG-LJg4w",
+        viewCount: 1408,
+      },
     ],
   },
   {
@@ -703,6 +952,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/gOZb0_X1IVI",
         viewCount: 5927,
+      },
+      {
+        url: "https://youtu.be/APyRrIDe330",
+        viewCount: 8661,
       },
     ],
   },
@@ -713,6 +966,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/kvinSFqyfDs",
         viewCount: 496,
       },
+      {
+        url: "https://youtu.be/q13Kt69-BVA",
+        viewCount: 32,
+      },
     ],
   },
   {
@@ -722,6 +979,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/4tcYnXrHw-0",
         viewCount: 1117,
       },
+      {
+        url: "https://youtu.be/4fILSv6jAMw",
+        viewCount: 3300,
+      },
     ],
   },
   {
@@ -730,6 +991,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/L_AjLsTYhyo",
         viewCount: 382,
+      },
+      {
+        url: "https://youtu.be/4jWe_Tj6XBI",
+        viewCount: 2436,
       },
     ],
   },
@@ -749,6 +1014,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/K8kqPCUK6R8",
         viewCount: 3890,
       },
+      {
+        url: "https://youtu.be/lTvlfSdqBl0",
+        viewCount: 8961,
+      },
     ],
   },
   {
@@ -757,6 +1026,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/EHcX0FsHN4I",
         viewCount: 2086,
+      },
+      {
+        url: "https://youtu.be/oFKF4oGsmcc",
+        viewCount: 7744,
       },
     ],
   },
@@ -776,6 +1049,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/KfzoKTylDjc",
         viewCount: 5363,
       },
+      {
+        url: "https://youtu.be/EIHN8p44BQI",
+        viewCount: 35039,
+      },
     ],
   },
   {
@@ -784,6 +1061,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/LcYNV49ToHw",
         viewCount: 778,
+      },
+      {
+        url: "https://youtu.be/ovahEaged3g",
+        viewCount: 5855,
       },
     ],
   },
@@ -794,6 +1075,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/IrbaIVlDYf4",
         viewCount: 112,
       },
+      {
+        url: "https://youtu.be/CVElpROYVGo",
+        viewCount: 631,
+      },
     ],
   },
   {
@@ -802,6 +1087,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/3HziXE0DqYc",
         viewCount: 373,
+      },
+      {
+        url: "https://youtu.be/vTRjpKqBusY",
+        viewCount: 1458,
       },
     ],
   },
@@ -812,6 +1101,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/J2FGtEBK23Y",
         viewCount: 378,
       },
+      {
+        url: "https://youtu.be/qwe4gawBsQs",
+        viewCount: 4658,
+      },
     ],
   },
   {
@@ -820,6 +1113,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/i8aSCHsRxUU",
         viewCount: 547,
+      },
+      {
+        url: "https://youtu.be/nvV4jGHhKWw",
+        viewCount: 101,
       },
     ],
   },
@@ -830,6 +1127,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/4j2-BMOq2E8",
         viewCount: 636,
       },
+      {
+        url: "https://youtu.be/tNyKzYc8t3c",
+        viewCount: 4587,
+      },
     ],
   },
   {
@@ -838,6 +1139,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/gtWLdQMVbDY",
         viewCount: 1241,
+      },
+      {
+        url: "https://youtu.be/bbJ19NgX1M4",
+        viewCount: 10291,
       },
     ],
   },
@@ -848,6 +1153,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/To8mqgC2QAM",
         viewCount: 142,
       },
+      {
+        url: "https://youtu.be/Z-x-1_uKFgE",
+        viewCount: 829,
+      },
     ],
   },
   {
@@ -856,6 +1165,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/_bNehM9hSq0",
         viewCount: 2357,
+      },
+      {
+        url: "https://youtu.be/mXSTZeiQ0IY",
+        viewCount: 15827,
       },
     ],
   },
@@ -866,6 +1179,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/jCrN-gGptk4",
         viewCount: 508,
       },
+      {
+        url: "https://youtu.be/Kg1PT1JyWWc",
+        viewCount: 2494,
+      },
     ],
   },
   {
@@ -874,6 +1191,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/9mJAyJg_IXE",
         viewCount: 419,
+      },
+      {
+        url: "https://youtu.be/IwiOgajnok4",
+        viewCount: 1856,
       },
     ],
   },
@@ -884,6 +1205,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/DIZxX2fMdq8",
         viewCount: 326,
       },
+      {
+        url: "https://youtu.be/aWKTnt2qXHw",
+        viewCount: 1725,
+      },
     ],
   },
   {
@@ -893,6 +1218,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/tiRy4J8SgWc",
         viewCount: 8689,
       },
+      {
+        url: "https://youtu.be/qu_0MzFIyHI",
+        viewCount: 34959,
+      },
     ],
   },
   {
@@ -901,6 +1230,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/MT98HcXgz4o",
         viewCount: 83,
+      },
+      {
+        url: "https://youtu.be/81dG2l9M09E",
+        viewCount: 1800,
       },
     ],
   },
@@ -920,6 +1253,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/VY0ezpbvcRQ",
         viewCount: 5426,
       },
+      {
+        url: "https://youtu.be/rPnwTNARpnc",
+        viewCount: 15915,
+      },
     ],
   },
   {
@@ -928,6 +1265,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/tgJ2mKj4BOo",
         viewCount: 50803,
+      },
+      {
+        url: "https://youtu.be/2bWEbmd6PeA",
+        viewCount: 331545,
       },
     ],
   },
@@ -938,6 +1279,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/hf-kirYTAn8",
         viewCount: 5301,
       },
+      {
+        url: "https://youtu.be/6Iw8nZN9nhI",
+        viewCount: 819,
+      },
     ],
   },
   {
@@ -946,6 +1291,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/UUJ_UIXnkd8",
         viewCount: 44488,
+      },
+      {
+        url: "https://youtu.be/-K0KOwsCjAc",
+        viewCount: 345726,
       },
     ],
   },
@@ -956,6 +1305,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/sgcZihXbxeM",
         viewCount: 1903,
       },
+      {
+        url: "https://youtu.be/AiHtSkJz2qk",
+        viewCount: 8439,
+      },
     ],
   },
   {
@@ -964,6 +1317,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/2WXqly_KgEI",
         viewCount: 7451,
+      },
+      {
+        url: "https://youtu.be/Koz7Hc0Ceww",
+        viewCount: 30007,
       },
     ],
   },
@@ -974,6 +1331,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/l924yFvY_WA",
         viewCount: 724,
       },
+      {
+        url: "https://youtu.be/QNJuIbAM_xU",
+        viewCount: 3565,
+      },
     ],
   },
   {
@@ -982,6 +1343,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/fMCC2qBzXJo",
         viewCount: 33782,
+      },
+      {
+        url: "https://youtu.be/X-Ew2kRItz8",
+        viewCount: 107479,
       },
     ],
   },
@@ -992,6 +1357,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/-AvBdhvdZXw",
         viewCount: 4252,
       },
+      {
+        url: "https://youtu.be/SlRMpTE6dg0",
+        viewCount: 10302,
+      },
     ],
   },
   {
@@ -1000,6 +1369,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/0CzLnEEF2Ns",
         viewCount: 10866,
+      },
+      {
+        url: "https://youtu.be/xDBa8z6XtcM",
+        viewCount: 80014,
       },
     ],
   },
@@ -1010,6 +1383,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/7pGQ264-7m8",
         viewCount: 436,
       },
+      {
+        url: "https://youtu.be/GVVlg1U2Dfk",
+        viewCount: 4309,
+      },
     ],
   },
   {
@@ -1018,6 +1395,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/959eGtuOCp8",
         viewCount: 14696,
+      },
+      {
+        url: "https://youtu.be/v-txf4l8iMI",
+        viewCount: 91667,
       },
     ],
   },
@@ -1028,6 +1409,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/bDj2Z46i4Go",
         viewCount: 1862,
       },
+      {
+        url: "https://youtu.be/74osftkDx5I",
+        viewCount: 6785,
+      },
     ],
   },
   {
@@ -1036,6 +1421,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/4NT09SY7plk",
         viewCount: 6314,
+      },
+      {
+        url: "https://youtu.be/SqFs_6_Nqfk",
+        viewCount: 18732,
       },
     ],
   },
@@ -1046,6 +1435,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/qfASeYJSVP8",
         viewCount: 460,
       },
+      {
+        url: "https://youtu.be/iRDaTUaPXDY",
+        viewCount: 3059,
+      },
     ],
   },
   {
@@ -1055,6 +1448,10 @@ export const videos: { level: number; videos: Video[] }[] = [
         url: "https://youtu.be/TBFeifg-AkE",
         viewCount: 26656,
       },
+      {
+        url: "https://youtu.be/c1Y1afA2Yg8",
+        viewCount: 79106,
+      },
     ],
   },
   {
@@ -1063,6 +1460,10 @@ export const videos: { level: number; videos: Video[] }[] = [
       {
         url: "https://youtu.be/sr4RoHjhVy8",
         viewCount: 971,
+      },
+      {
+        url: "https://youtu.be/0iXnPIVHk3M",
+        viewCount: 3054,
       },
     ],
   },
