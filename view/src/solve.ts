@@ -23,7 +23,6 @@ export const solve = (stage: Stage): Transfer[] => {
   const queue: State[] = [
     {
       tubes: stage.tubes,
-      history: new Set(),
     },
   ];
   const history = new Set<string>();
