@@ -1,3 +1,4 @@
+import { writeJSONSync } from "fs-extra";
 import {
   stages,
   Stage,
@@ -10,18 +11,22 @@ import { Node } from "./types";
 import { Counter } from "./counter";
 import { pickRandomly } from "./utils";
 
-const TRIAL_COUNT = 10000;
+const TRIAL_COUNT = 100000;
 const REPETITION_LIMIT = 10;
 
 const main = (): void => {
+  const difficulties = [];
   for (const stage of stages) {
-    console.log("--------------------");
-    measureDifficultyOfStage(stage, TRIAL_COUNT);
+    const [completeCount, stuckCount] = sampleRandomPlays(stage, TRIAL_COUNT);
+    difficulties.push({
+      level: stage.level,
+      completeCount,
+      stuckCount,
+    });
   }
-};
-
-const calculateDifficulty = (completeCount: number, stuckCount: number) => {
-  return stuckCount / (completeCount + stuckCount);
+  writeJSONSync("output/difficulties.json", difficulties, {
+    spaces: 2,
+  });
 };
 
 // Returns the root node
@@ -83,10 +88,11 @@ const randomPlay = (graph: Node): boolean => {
   }
 };
 
-const measureDifficultyOfStage = (
+// Returns [completeCount, stuckCount]
+const sampleRandomPlays = (
   stage: Stage,
   sampleCount: number
-): number => {
+): [number, number] => {
   console.log(`Solving level ${stage.level}...`);
 
   const graph = buildGraph(stage);
@@ -105,10 +111,7 @@ const measureDifficultyOfStage = (
   console.log(`Completed ${completeCount} times`);
   console.log(`Stuck ${stuckCount} times`);
 
-  const difficulty = calculateDifficulty(completeCount, stuckCount);
-  console.log(`Difficulty: ${difficulty}`);
-
-  return difficulty;
+  return [completeCount, stuckCount];
 };
 
 main();
