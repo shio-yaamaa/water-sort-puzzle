@@ -1,8 +1,12 @@
 import React from "react";
 import "./DifficultyTablePage.css";
-import { Row } from "../components/Row";
+import { DifficultyTable } from "../components/DifficultyTable";
 import { stages } from "core";
 
 export const DifficultyTablePage: React.VFC = () => {
-  return <div className="DifficultyTablePage">Difficulty</div>;
+  return (
+    <div className="DifficultyTablePage">
+      <DifficultyTable stages={stages} videos={[]} difficulties={[]} />
+    </div>
+  );
 };
