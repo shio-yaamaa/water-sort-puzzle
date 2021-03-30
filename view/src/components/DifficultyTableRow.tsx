@@ -19,7 +19,9 @@ export const DifficultyTableRow: React.VFC<Props> = (props) => {
   return (
     <tr className="DifficultyTableRow">
       <td>{props.stage.level}</td>
-      <td>??</td>
+      <td>
+        <StatePreview state={{ tubes: props.stage.tubes }} />
+      </td>
       <td>
         <HeatmapCell value={colorCount} min={1} max={13}>
           {`${colorCount}色`}
