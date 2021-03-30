@@ -3,10 +3,7 @@
 // - Mobile Games: UCscPSAYHuvcqD_RGTin_lDA
 // The number of views are as of March 2021.
 
-interface Video {
-  url: string;
-  viewCount: number;
-}
+import { Video } from "../src/types";
 
 export const videos: { level: number; videos: Video[] }[] = [
   {

@@ -30,3 +30,8 @@ export enum Water {
   BROWN = "brown",
   GRAY = "gray",
 }
+
+export interface Video {
+  url: string;
+  viewCount: number;
+}
