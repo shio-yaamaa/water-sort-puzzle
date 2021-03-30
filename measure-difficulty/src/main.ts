@@ -9,22 +9,21 @@ import {
 } from "core";
 import { Node } from "./types";
 import { Counter } from "./counter";
-import { pickRandomly } from "./utils";
+import { pickRandomly, calculateSuccessRate } from "./utils";
 
 const TRIAL_COUNT = 100000;
 const REPETITION_LIMIT = 10;
 
 const main = (): void => {
-  const difficulties = [];
+  const successRates = [];
   for (const stage of stages) {
     const [completeCount, stuckCount] = sampleRandomPlays(stage, TRIAL_COUNT);
-    difficulties.push({
+    successRates.push({
       level: stage.level,
-      completeCount,
-      stuckCount,
+      successRate: calculateSuccessRate(completeCount, stuckCount),
     });
   }
-  writeJSONSync("output/difficulties.json", difficulties, {
+  writeJSONSync("output/successRates.json", successRates, {
     spaces: 2,
   });
 };
