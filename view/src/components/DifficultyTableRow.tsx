@@ -34,7 +34,7 @@ export const DifficultyTableRow: React.VFC<Props> = (props) => {
       </td>
       <td>
         <HeatmapCell value={videoViewCount ?? 0} min={0} max={441072}>
-          {videoViewCount ? `${videoViewCount}回` : ""}
+          {videoViewCount ? `${Number(videoViewCount).toLocaleString()}回` : ""}
         </HeatmapCell>
       </td>
     </tr>
