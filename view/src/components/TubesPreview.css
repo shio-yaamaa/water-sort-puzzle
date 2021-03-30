@@ -11,7 +11,8 @@
   width: 30px;
   height: 80px;
   margin: 2px;
-  border: 2px #bcbcbc solid;
+  /* border: 2px #bcbcbc solid; */
+  border: 1px #cccccc solid;
 }
 
 .TubesPreview-water {
