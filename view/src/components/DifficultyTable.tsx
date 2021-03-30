@@ -1,13 +1,11 @@
 import React from "react";
 import "./DifficultyTable.css";
-import { StatePreview } from "./StatePreview";
+import { DifficultyTableRow } from "./DifficultyTableRow";
 import { Stage, Video } from "core";
-import { countDistinctColors } from "../countDistinctColors";
 import {
   createLevelToVideosMap,
   createLevelToSuccessRateMap,
 } from "../createMap";
-import { sumVideoViewCount } from "../videoViewCount";
 
 interface Props {
   stages: Stage[];
@@ -31,13 +29,11 @@ export const DifficultyTable: React.VFC<Props> = (props) => {
       </thead>
       <tbody>
         {props.stages.map((stage) => (
-          <tr>
-            <td>{stage.level}</td>
-            <td>??</td>
-            <td>{countDistinctColors(stage)}色</td>
-            <td>{(levelToSuccessRate.get(stage.level) ?? 0) * 100}%</td>
-            <td>{sumVideoViewCount(levelToVideos.get(stage.level) ?? [])}回</td>
-          </tr>
+          <DifficultyTableRow
+            stage={stage}
+            successRate={levelToSuccessRate.get(stage.level) ?? 0}
+            videos={levelToVideos.get(stage.level) ?? []}
+          />
         ))}
       </tbody>
     </table>
