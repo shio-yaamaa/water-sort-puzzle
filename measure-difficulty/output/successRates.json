@@ -1,0 +1,482 @@
+[
+  {
+    "level": 1,
+    "successRate": 1
+  },
+  {
+    "level": 2,
+    "successRate": 1
+  },
+  {
+    "level": 3,
+    "successRate": 0.97757
+  },
+  {
+    "level": 4,
+    "successRate": 0.97639
+  },
+  {
+    "level": 5,
+    "successRate": 0.85496
+  },
+  {
+    "level": 6,
+    "successRate": 0.91166
+  },
+  {
+    "level": 7,
+    "successRate": 0.75969
+  },
+  {
+    "level": 8,
+    "successRate": 0.91526
+  },
+  {
+    "level": 9,
+    "successRate": 0.8786
+  },
+  {
+    "level": 10,
+    "successRate": 0.46999
+  },
+  {
+    "level": 11,
+    "successRate": 0.28555
+  },
+  {
+    "level": 12,
+    "successRate": 0.72081
+  },
+  {
+    "level": 13,
+    "successRate": 0.56738
+  },
+  {
+    "level": 14,
+    "successRate": 0.36406
+  },
+  {
+    "level": 15,
+    "successRate": 0.85825
+  },
+  {
+    "level": 16,
+    "successRate": 0.57075
+  },
+  {
+    "level": 17,
+    "successRate": 0.6488
+  },
+  {
+    "level": 18,
+    "successRate": 0.7914
+  },
+  {
+    "level": 19,
+    "successRate": 0.27747
+  },
+  {
+    "level": 20,
+    "successRate": 0.53808
+  },
+  {
+    "level": 21,
+    "successRate": 0.87628
+  },
+  {
+    "level": 22,
+    "successRate": 0.35845
+  },
+  {
+    "level": 23,
+    "successRate": 0.48976
+  },
+  {
+    "level": 24,
+    "successRate": 0.90183
+  },
+  {
+    "level": 25,
+    "successRate": 0.31712
+  },
+  {
+    "level": 26,
+    "successRate": 0.70419
+  },
+  {
+    "level": 27,
+    "successRate": 0.8904
+  },
+  {
+    "level": 28,
+    "successRate": 0.59745
+  },
+  {
+    "level": 29,
+    "successRate": 0.3156
+  },
+  {
+    "level": 30,
+    "successRate": 0.47562
+  },
+  {
+    "level": 31,
+    "successRate": 0.02201
+  },
+  {
+    "level": 32,
+    "successRate": 0.42098
+  },
+  {
+    "level": 33,
+    "successRate": 0.52395
+  },
+  {
+    "level": 34,
+    "successRate": 0.08596
+  },
+  {
+    "level": 35,
+    "successRate": 0.05523
+  },
+  {
+    "level": 36,
+    "successRate": 0.5953
+  },
+  {
+    "level": 37,
+    "successRate": 0.10422
+  },
+  {
+    "level": 38,
+    "successRate": 0.05189
+  },
+  {
+    "level": 39,
+    "successRate": 0.721
+  },
+  {
+    "level": 40,
+    "successRate": 0.12684
+  },
+  {
+    "level": 41,
+    "successRate": 0.11043
+  },
+  {
+    "level": 42,
+    "successRate": 0.15332
+  },
+  {
+    "level": 43,
+    "successRate": 0.23128
+  },
+  {
+    "level": 44,
+    "successRate": 0.21171
+  },
+  {
+    "level": 45,
+    "successRate": 0.38782
+  },
+  {
+    "level": 46,
+    "successRate": 0.21155
+  },
+  {
+    "level": 47,
+    "successRate": 0.02211
+  },
+  {
+    "level": 48,
+    "successRate": 0.57567
+  },
+  {
+    "level": 49,
+    "successRate": 0.07417
+  },
+  {
+    "level": 50,
+    "successRate": 0.01398
+  },
+  {
+    "level": 51,
+    "successRate": 0.54516
+  },
+  {
+    "level": 52,
+    "successRate": 0.05537
+  },
+  {
+    "level": 53,
+    "successRate": 0.108
+  },
+  {
+    "level": 54,
+    "successRate": 0.55664
+  },
+  {
+    "level": 55,
+    "successRate": 0.08941
+  },
+  {
+    "level": 56,
+    "successRate": 0.23651
+  },
+  {
+    "level": 57,
+    "successRate": 0.33672
+  },
+  {
+    "level": 58,
+    "successRate": 0.11455
+  },
+  {
+    "level": 59,
+    "successRate": 0.38275
+  },
+  {
+    "level": 60,
+    "successRate": 0.16239
+  },
+  {
+    "level": 61,
+    "successRate": 0.04716
+  },
+  {
+    "level": 62,
+    "successRate": 0.07139
+  },
+  {
+    "level": 63,
+    "successRate": 0.6249
+  },
+  {
+    "level": 64,
+    "successRate": 0.11188
+  },
+  {
+    "level": 65,
+    "successRate": 0.3449
+  },
+  {
+    "level": 66,
+    "successRate": 0.15595
+  },
+  {
+    "level": 67,
+    "successRate": 0.11743
+  },
+  {
+    "level": 68,
+    "successRate": 0.3882
+  },
+  {
+    "level": 69,
+    "successRate": 0.46485
+  },
+  {
+    "level": 70,
+    "successRate": 0.1758
+  },
+  {
+    "level": 71,
+    "successRate": 0.08142
+  },
+  {
+    "level": 72,
+    "successRate": 0.27533
+  },
+  {
+    "level": 73,
+    "successRate": 0.10682
+  },
+  {
+    "level": 74,
+    "successRate": 0.03999
+  },
+  {
+    "level": 75,
+    "successRate": 0.289
+  },
+  {
+    "level": 76,
+    "successRate": 0.15159
+  },
+  {
+    "level": 77,
+    "successRate": 0.07694
+  },
+  {
+    "level": 78,
+    "successRate": 0.47075
+  },
+  {
+    "level": 79,
+    "successRate": 0.24314
+  },
+  {
+    "level": 80,
+    "successRate": 0.09475
+  },
+  {
+    "level": 81,
+    "successRate": 0.57137
+  },
+  {
+    "level": 82,
+    "successRate": 0.12337
+  },
+  {
+    "level": 83,
+    "successRate": 0.17877
+  },
+  {
+    "level": 84,
+    "successRate": 0.36777
+  },
+  {
+    "level": 85,
+    "successRate": 0.06895
+  },
+  {
+    "level": 86,
+    "successRate": 0.16341
+  },
+  {
+    "level": 87,
+    "successRate": 0.61381
+  },
+  {
+    "level": 88,
+    "successRate": 0.06355
+  },
+  {
+    "level": 89,
+    "successRate": 0.05771
+  },
+  {
+    "level": 90,
+    "successRate": 0.62111
+  },
+  {
+    "level": 91,
+    "successRate": 0.32663
+  },
+  {
+    "level": 92,
+    "successRate": 0.09372
+  },
+  {
+    "level": 93,
+    "successRate": 0.41606
+  },
+  {
+    "level": 94,
+    "successRate": 0.11996
+  },
+  {
+    "level": 95,
+    "successRate": 0.06251
+  },
+  {
+    "level": 96,
+    "successRate": 0.41768
+  },
+  {
+    "level": 97,
+    "successRate": 0.07377
+  },
+  {
+    "level": 98,
+    "successRate": 0.16718
+  },
+  {
+    "level": 99,
+    "successRate": 0.18704
+  },
+  {
+    "level": 100,
+    "successRate": 0.21439
+  },
+  {
+    "level": 101,
+    "successRate": 0.00275
+  },
+  {
+    "level": 102,
+    "successRate": 0.41049
+  },
+  {
+    "level": 103,
+    "successRate": 0.00431
+  },
+  {
+    "level": 104,
+    "successRate": 0.046
+  },
+  {
+    "level": 105,
+    "successRate": 0.00001
+  },
+  {
+    "level": 106,
+    "successRate": 0.4406
+  },
+  {
+    "level": 107,
+    "successRate": 0.00086
+  },
+  {
+    "level": 108,
+    "successRate": 0.09077
+  },
+  {
+    "level": 109,
+    "successRate": 0.01
+  },
+  {
+    "level": 110,
+    "successRate": 0.10808
+  },
+  {
+    "level": 111,
+    "successRate": 0.00065
+  },
+  {
+    "level": 112,
+    "successRate": 0.02746
+  },
+  {
+    "level": 113,
+    "successRate": 0.00106
+  },
+  {
+    "level": 114,
+    "successRate": 0.18826
+  },
+  {
+    "level": 115,
+    "successRate": 0.00149
+  },
+  {
+    "level": 116,
+    "successRate": 0.01804
+  },
+  {
+    "level": 117,
+    "successRate": 0.00662
+  },
+  {
+    "level": 118,
+    "successRate": 0.10947
+  },
+  {
+    "level": 119,
+    "successRate": 0.00342
+  },
+  {
+    "level": 120,
+    "successRate": 0.02644
+  }
+]
