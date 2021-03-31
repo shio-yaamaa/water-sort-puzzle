@@ -1,3 +1,7 @@
 .StatePreview {
   padding: 8px;
 }
+
+.StatePreview.compact {
+  padding: 2px;
+}

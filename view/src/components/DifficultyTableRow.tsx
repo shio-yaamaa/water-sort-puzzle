@@ -25,6 +25,7 @@ export const DifficultyTableRow: React.VFC<Props> = (props) => {
       <StatePreview
         state={{ tubes: props.stage.tubes }}
         colors={lightThemeColors}
+        isCompact={true}
       />
       <HeatmapCell
         value={colorCount}

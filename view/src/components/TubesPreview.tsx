@@ -5,11 +5,12 @@ import { Tube, Water } from "core";
 interface Props {
   tubes: Tube[];
   colors: Map<Water, string>;
+  isCompact?: boolean;
 }
 
 export const TubesPreview: React.VFC<Props> = (props) => {
   return (
-    <div className="TubesPreview">
+    <div className={`TubesPreview ${props.isCompact ? "compact" : ""}`}>
       {props.tubes.map((tubes, tubeIndex) => (
         <div className="TubesPreview-tube" key={tubeIndex}>
           {tubes.waters.map((water, waterIndex) => (

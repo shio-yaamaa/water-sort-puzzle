@@ -19,3 +19,13 @@
   width: 100%;
   height: 20px; /* 80px / 4 */
 }
+
+/* Compact version */
+
+.TubesPreview.compact .TubesPreview-tube {
+  height: 48px;
+}
+
+.TubesPreview.compact .TubesPreview-water {
+  height: 12px; /* 48px / 4 */
+}
