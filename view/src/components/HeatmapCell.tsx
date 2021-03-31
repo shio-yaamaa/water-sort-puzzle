@@ -7,18 +7,23 @@ interface Props {
   min: number;
   max: number;
   reverse?: boolean;
+  easingFunction?: (number: number) => number;
 }
 
 export const HeatmapCell: React.FC<Props> = (props) => {
-  const scale = chroma.scale(["#0f0", "#f00"]);
-  const location = props.reverse
-    ? (-props.value + props.max) / (props.max - props.min)
-    : (props.value - props.min) / (props.max - props.min);
+  const colorScale = chroma.scale(["#0f0", "#f00"]);
+
+  const location = (props.value - props.min) / (props.max - props.min);
+  const transformedLocation = props.easingFunction
+    ? props.easingFunction(location)
+    : location;
   return (
     <div
       className="HeatmapCell"
       style={{
-        backgroundColor: scale(location).hex(),
+        backgroundColor: colorScale(
+          props.reverse ? 1 - transformedLocation : transformedLocation
+        ).hex(),
       }}
     >
       {props.children}
