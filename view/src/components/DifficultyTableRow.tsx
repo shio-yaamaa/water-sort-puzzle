@@ -5,6 +5,7 @@ import { HeatmapCell } from "./HeatmapCell";
 import { Stage, Video } from "core";
 import { lightThemeColors } from "../colors";
 import { countDistinctColors } from "../countDistinctColors";
+import { formatPercentage } from "../formatPercentage";
 import { sumVideoViewCount } from "../videoViewCount";
 
 interface Props {
@@ -29,7 +30,7 @@ export const DifficultyTableRow: React.VFC<Props> = (props) => {
       </HeatmapCell>
       <HeatmapCell value={props.successRate} min={0} max={1} reverse={true}>
         <div className="DifficultyTableRow-td numeral">
-          {`${props.successRate * 100}%`}
+          {formatPercentage(props.successRate)}
         </div>
       </HeatmapCell>
       <HeatmapCell value={videoViewCount ?? 0} min={0} max={441072}>
