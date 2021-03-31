@@ -23,6 +23,7 @@
 /* Compact version */
 
 .TubesPreview.compact .TubesPreview-tube {
+  width: 24px;
   height: 48px;
 }
 

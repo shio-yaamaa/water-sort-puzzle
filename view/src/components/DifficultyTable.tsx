@@ -21,7 +21,7 @@ export const DifficultyTable: React.VFC<Props> = (props) => {
       <div className="DifficultyTable-th">レベル</div>
       <div className="DifficultyTable-th">初期状態</div>
       <div className="DifficultyTable-th">色の数</div>
-      <div className="DifficultyTable-th">クリアできた割合</div>
+      <div className="DifficultyTable-th">クリアの割合</div>
       <div className="DifficultyTable-th">解法動画の再生回数</div>
       {props.stages.map((stage) => (
         <DifficultyTableRow
