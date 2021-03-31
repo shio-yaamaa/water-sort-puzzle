@@ -3,6 +3,7 @@ import "./DifficultyTableRow.css";
 import { StatePreview } from "./StatePreview";
 import { HeatmapCell } from "./HeatmapCell";
 import { Stage, Video } from "core";
+import { lightThemeColors } from "../colors";
 import { countDistinctColors } from "../countDistinctColors";
 import { sumVideoViewCount } from "../videoViewCount";
 
@@ -20,7 +21,10 @@ export const DifficultyTableRow: React.VFC<Props> = (props) => {
     <tr className="DifficultyTableRow">
       <td>{props.stage.level}</td>
       <td>
-        <StatePreview state={{ tubes: props.stage.tubes }} />
+        <StatePreview
+          state={{ tubes: props.stage.tubes }}
+          colors={lightThemeColors}
+        />
       </td>
       <td>
         <HeatmapCell value={colorCount} min={1} max={13}>

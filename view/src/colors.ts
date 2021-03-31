@@ -1,6 +1,6 @@
 import { Water } from "core";
 
-const originalColors = new Map<Water, string>([
+export const originalColors = new Map<Water, string>([
   [Water.EMPTY, "rgba(0, 0, 0, 0)"],
   [Water.PINK, "#D9677C"],
   [Water.RED, "#B5392D"],
@@ -16,7 +16,7 @@ const originalColors = new Map<Water, string>([
   [Water.GRAY, "#636465"],
 ]);
 
-const brighterColors = new Map<Water, string>([
+export const lightThemeColors = new Map<Water, string>([
   [Water.EMPTY, "rgba(0, 0, 0, 0)"],
   [Water.PINK, "#F06292"], // Pink 300
   [Water.RED, "#E53935"], // Red 600
@@ -31,5 +31,3 @@ const brighterColors = new Map<Water, string>([
   [Water.BROWN, "#795548"], // Brown 500
   [Water.GRAY, "#757575"], // Gray 600
 ]);
-
-export const colors = brighterColors;

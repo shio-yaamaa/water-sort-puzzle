@@ -1,10 +1,10 @@
 import React from "react";
 import "./TubesPreview.css";
-import { Tube } from "core";
-import { colors } from "../colors";
+import { Tube, Water } from "core";
 
 interface Props {
   tubes: Tube[];
+  colors: Map<Water, string>;
 }
 
 export const TubesPreview: React.VFC<Props> = (props) => {
@@ -16,7 +16,7 @@ export const TubesPreview: React.VFC<Props> = (props) => {
             <div
               className="TubesPreview-water"
               key={waterIndex}
-              style={{ backgroundColor: colors.get(water) }}
+              style={{ backgroundColor: props.colors.get(water) }}
             ></div>
           ))}
         </div>

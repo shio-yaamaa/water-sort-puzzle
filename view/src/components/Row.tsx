@@ -2,6 +2,7 @@ import React from "react";
 import "./Row.css";
 import { StatePreview } from "./StatePreview";
 import { State } from "core";
+import { originalColors } from "../colors";
 
 interface Props {
   parentState: State;
@@ -15,7 +16,7 @@ export const Row: React.VFC<Props> = (props) => {
   return (
     <div className="Row">
       <div className="Row-parent-state">
-        <StatePreview state={props.parentState} />
+        <StatePreview state={props.parentState} colors={originalColors} />
       </div>
       <div className="Row-arrow">
         <p>→</p>
@@ -25,7 +26,7 @@ export const Row: React.VFC<Props> = (props) => {
           className={`Row-child-state ${child.duplicate ? "duplicate" : ""}`}
           key={index}
         >
-          <StatePreview state={child.state} />
+          <StatePreview state={child.state} colors={originalColors} />
         </div>
       ))}
     </div>
