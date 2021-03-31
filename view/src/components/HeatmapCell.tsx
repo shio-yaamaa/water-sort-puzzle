@@ -10,9 +10,20 @@ interface Props {
   easingFunction?: (number: number) => number;
 }
 
-export const HeatmapCell: React.FC<Props> = (props) => {
-  const colorScale = chroma.scale(["#0f0", "#f00"]);
+// http://pscolour.eu/English/howcan.htm
+const colorScale = chroma.scale([
+  "#82EF49",
+  "#A6E738",
+  "#BEE338",
+  "#DCE45A",
+  "#EDE164",
+  "#F7CF55",
+  "#FFC361",
+  "#FFB26D",
+  "#FFA26D",
+]);
 
+export const HeatmapCell: React.FC<Props> = (props) => {
   const location = (props.value - props.min) / (props.max - props.min);
   const transformedLocation = props.easingFunction
     ? props.easingFunction(location)
