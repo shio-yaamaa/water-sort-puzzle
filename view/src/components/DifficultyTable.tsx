@@ -17,25 +17,19 @@ export const DifficultyTable: React.VFC<Props> = (props) => {
   const levelToVideos = createLevelToVideosMap(props.videos);
   const levelToSuccessRate = createLevelToSuccessRateMap(props.successRates);
   return (
-    <table className="DifficultyTable">
-      <thead>
-        <tr>
-          <th>レベル</th>
-          <th>初期状態</th>
-          <th>色の数</th>
-          <th>クリアできた割合</th>
-          <th>解法動画の再生回数</th>
-        </tr>
-      </thead>
-      <tbody>
-        {props.stages.map((stage) => (
-          <DifficultyTableRow
-            stage={stage}
-            successRate={levelToSuccessRate.get(stage.level) ?? 0}
-            videos={levelToVideos.get(stage.level) ?? []}
-          />
-        ))}
-      </tbody>
-    </table>
+    <div className="DifficultyTable">
+      <div className="DifficultyTable-th">レベル</div>
+      <div className="DifficultyTable-th">初期状態</div>
+      <div className="DifficultyTable-th">色の数</div>
+      <div className="DifficultyTable-th">クリアできた割合</div>
+      <div className="DifficultyTable-th">解法動画の再生回数</div>
+      {props.stages.map((stage) => (
+        <DifficultyTableRow
+          stage={stage}
+          successRate={levelToSuccessRate.get(stage.level) ?? 0}
+          videos={levelToVideos.get(stage.level) ?? []}
+        />
+      ))}
+    </div>
   );
 };

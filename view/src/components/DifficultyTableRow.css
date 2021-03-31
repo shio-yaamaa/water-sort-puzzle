@@ -1,0 +1,11 @@
+.DifficultyTableRow-td {
+  padding: 4px;
+}
+
+.DifficultyTableRow-td.numeral {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

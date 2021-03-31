@@ -18,29 +18,25 @@ export const DifficultyTableRow: React.VFC<Props> = (props) => {
   const videoViewCount =
     props.videos.length > 0 ? sumVideoViewCount(props.videos) : null;
   return (
-    <tr className="DifficultyTableRow">
-      <td>{props.stage.level}</td>
-      <td>
-        <StatePreview
-          state={{ tubes: props.stage.tubes }}
-          colors={lightThemeColors}
-        />
-      </td>
-      <td>
-        <HeatmapCell value={colorCount} min={1} max={13}>
-          {`${colorCount}色`}
-        </HeatmapCell>
-      </td>
-      <td>
-        <HeatmapCell value={props.successRate} min={0} max={1} reverse={true}>
+    <>
+      <div className="DifficultyTableRow-td numeral">{props.stage.level}</div>
+      <StatePreview
+        state={{ tubes: props.stage.tubes }}
+        colors={lightThemeColors}
+      />
+      <HeatmapCell value={colorCount} min={1} max={13}>
+        <div className="DifficultyTableRow-td numeral">{`${colorCount}色`}</div>
+      </HeatmapCell>
+      <HeatmapCell value={props.successRate} min={0} max={1} reverse={true}>
+        <div className="DifficultyTableRow-td numeral">
           {`${props.successRate * 100}%`}
-        </HeatmapCell>
-      </td>
-      <td>
-        <HeatmapCell value={videoViewCount ?? 0} min={0} max={441072}>
+        </div>
+      </HeatmapCell>
+      <HeatmapCell value={videoViewCount ?? 0} min={0} max={441072}>
+        <div className="DifficultyTableRow-td numeral">
           {videoViewCount ? `${Number(videoViewCount).toLocaleString()}回` : ""}
-        </HeatmapCell>
-      </td>
-    </tr>
+        </div>
+      </HeatmapCell>
+    </>
   );
 };

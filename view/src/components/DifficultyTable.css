@@ -1,0 +1,9 @@
+.DifficultyTable {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.DifficultyTable-th {
+  padding: 4px;
+  text-align: center;
+}
